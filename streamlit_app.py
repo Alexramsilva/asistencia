@@ -27,7 +27,7 @@ fecha = st.date_input("Fecha de asistencia", date.today())
 
 # Lista de estudiantes (puedes personalizarla o hacerla editable)
 estudiantes = [
-''Isabel Sarai _Jimenez '',	''Jesus Alejandro _Elizalde '',	''Angel Eduardo_Prado '',	''Alan Ignacio_Salas '',  ''Margarita Fabiola_Salazar '',	''Daniela  (Dany)_Flores '',	''Emir Azariel_Calzada '',	''Graciela _Portillo '',	''Ana Belem_Hernandez '',	''Joyse_Garcia '',	''Estrella_Hernandez '',	''Natalia Mayte_Duran Huerta '',	''Shania Ailyne_Corte '',	''Jose Luis _Carrillo '',	''Hortensia _Graciano '',	''Marisol _Ortega '',	''Eric Geovani_Lopez '',	''Valeria_Hernandez '',	''Valeria_Camacho '',	''Oscar Jesus_Trujillo '',	''Aura Daniela_Suárez '',	''Tamara_Cordova '',	''Maritza Abigail_Rios '',	''Juan Rodrigo_Galicia '',	''Giovani _León '',	''Diego Gabriel_Cruz '',	''Maria Esther_Zaragoza '']
+"Isabel_Sarai_Jimenez",	"Jesus_Alejandro_Elizalde",	"Angel_Eduardo_Prado",	"Alan_Ignacio_Salas",  "Margarita_Fabiola_Salazar",	"Daniela_(Dany)_Flores",	"Emir_Azariel_Calzada",	"Graciela_Portillo",	"Ana_Belem_Hernandez",	"Joyse_Garcia",	"Estrella_Hernandez",	"Natalia_Mayte_Duran",	"Shania_Ailyne_Corte",	"Jose_Luis_Carrillo",	"Hortensia_Graciano",	"Marisol_Ortega",	"Eric_Geovani_Lopez",	"Valeria_Hernandez",	"Valeria_Camacho",	"Oscar_Jesus_Trujillo",	"Aura_Daniela_Suárez",	"Tamara_Cordova",	"Maritza_Abigail_Rios",	"Juan_Rodrigo_Galicia",	"Giovani_León",	"Diego_Gabriel_Cruz",	"Maria_Esther_Zaragoza"]
 
 # Crear un diccionario para almacenar la asistencia
 asistencia_data = {"Fecha": [], "Nombre": [], "Asistencia": []}
