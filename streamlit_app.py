@@ -26,7 +26,8 @@ st.title("Registro de Asistencia")
 fecha = st.date_input("Fecha de asistencia", date.today())
 
 # Lista de estudiantes (puedes personalizarla o hacerla editable)
-estudiantes = ["Alumno 1", "Alumno 2", "Alumno 3", "Alumno 4"]
+estudiantes = [
+''Isabel Sarai _Jimenez '',	''Jesus Alejandro _Elizalde '',	''Angel Eduardo_Prado '',	''Alan Ignacio_Salas '',  ''Margarita Fabiola_Salazar '',	''Daniela  (Dany)_Flores '',	''Emir Azariel_Calzada '',	''Graciela _Portillo '',	''Ana Belem_Hernandez '',	''Joyse_Garcia '',	''Estrella_Hernandez '',	''Natalia Mayte_Duran Huerta '',	''Shania Ailyne_Corte '',	''Jose Luis _Carrillo '',	''Hortensia _Graciano '',	''Marisol _Ortega '',	''Eric Geovani_Lopez '',	''Valeria_Hernandez '',	''Valeria_Camacho '',	''Oscar Jesus_Trujillo '',	''Aura Daniela_Suárez '',	''Tamara_Cordova '',	''Maritza Abigail_Rios '',	''Juan Rodrigo_Galicia '',	''Giovani _León '',	''Diego Gabriel_Cruz '',	''Maria Esther_Zaragoza '']
 
 # Crear un diccionario para almacenar la asistencia
 asistencia_data = {"Fecha": [], "Nombre": [], "Asistencia": []}
