@@ -26,8 +26,7 @@ st.title("Registro de Asistencia")
 fecha = st.date_input("Fecha de asistencia", date.today())
 
 # Lista de estudiantes (puedes personalizarla o hacerla editable)
-estudiantes = [
-"Isabel_Sarai_Jimenez",	"Jesus_Alejandro_Elizalde",	"Angel_Eduardo_Prado",	"Alan_Ignacio_Salas",  "Margarita_Fabiola_Salazar",	"Daniela_(Dany)_Flores",	"Emir_Azariel_Calzada",	"Graciela_Portillo",	"Ana_Belem_Hernandez",	"Joyse_Garcia",	"Estrella_Hernandez",	"Natalia_Mayte_Duran",	"Shania_Ailyne_Corte",	"Jose_Luis_Carrillo",	"Hortensia_Graciano",	"Marisol_Ortega",	"Eric_Geovani_Lopez",	"Valeria_Hernandez",	"Valeria_Camacho",	"Oscar_Jesus_Trujillo",	"Aura_Daniela_Suárez",	"Tamara_Cordova",	"Maritza_Abigail_Rios",	"Juan_Rodrigo_Galicia",	"Giovani_León",	"Diego_Gabriel_Cruz",	"Maria_Esther_Zaragoza"]
+estudiantes = ['ALBERTO DANIEL_HILARIO ' ,	'ANA CLAUDIA_SANTIAGO ' ,	'ANDREA RUBY_QUINTERO ' ,	'ARMANDO JESUS_ALONSO ' ,	'AXEL VADHIR_OLMEDO ' ,	'BRANDON DANIEL_CAMACHO ' ,	'CARLOS DANIEL_RODRÍGUEZ ' ,	'CRISTINA_REYES ' ,	'DAVID_MEDINA ' ,	'ERIKA_SILVA ' ,	'JAIR_MATEO ' ,	'JAQUELINE_GONZALEZ ' ,	'JIMENA_HERNÁNDEZ ' ,	'JOSE ANTONIO_VELÁZQUEZ ' ,	'LESLIE PILAR_MENDOZA ' ,	'LUIS EDUARDO_ABAD ' ,	'MARIA GUADALUPE_MARRON ' ,	'MAYTE YAZMIN_PEREZ ' ,	'NAHOMY PAOLA_BARRERA ' ,	'NAOMI SARAHI_MENDOZA ' ,	'NAYDELIN SHARAI_GOMEZ ' ,	'SANDRA PAOLA_QUINTANA ' ,	'SHARON ASHLEY_ZAMACONA ' ,	'SILVIA ARISBET_VALDEZ ' ,	'VICTOR MANUEL_ÁLVAREZ ' ,	'JEAN KARLO _AREVALO ' ]
 
 # Crear un diccionario para almacenar la asistencia
 asistencia_data = {"Fecha": [], "Nombre": [], "Asistencia": []}
